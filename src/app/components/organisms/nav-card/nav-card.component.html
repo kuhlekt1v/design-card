@@ -1,0 +1,17 @@
+<div class="nav-container">
+  <div class="title-container">
+    <img src="../../../../assets/site-icon.svg" alt="site icon" class="avatar-img" />
+    <p class="title-semi-bold title-text">Website Name</p>
+  </div>
+  <app-line></app-line>
+  <div class="links-container">
+    <app-nav-link
+      [linkText]="['Explore', 'My Clients', 'Blog']"
+      [noMarginLink]="[{ index: 0, left: 0 }]"
+      selected="Explore"
+    ></app-nav-link>
+  </div>
+  <div class="info-container">
+    <app-user-info name="Annette Black"></app-user-info>
+  </div>
+</div>

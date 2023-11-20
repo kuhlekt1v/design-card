@@ -1,0 +1,9 @@
+<a
+  href="#"
+  class="body-medium"
+  *ngFor="let text of linkText; let i = index"
+  [ngClass]="{ selected: selected === text }"
+  [style.margin-left.px]="getMargin(i, 'left')"
+  [style.margin-right.px]="getMargin(i, 'right')"
+  >{{ text }}</a
+>

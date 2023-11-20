@@ -1,0 +1,15 @@
+@import "../../../shared/styles/colors";
+@import "../../../shared/styles/fonts";
+
+
+a {
+  text-decoration: none;
+
+  &:hover {
+    color: $accent_blue;
+  }
+}
+
+.selected {
+  color: $accent_blue;
+}

@@ -1,0 +1,33 @@
+@import "../../../shared/styles/colors";
+@import "../../../shared/styles/fonts";
+
+.nav-container {
+  display: flex;
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 175px;
+    flex-shrink: 0;
+  
+    .title-text {
+      padding-left: 10px;
+    }
+  }
+
+  .links-container {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+  }
+
+  .info-container {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+  }
+}
+
+

@@ -1,0 +1,15 @@
+@import "../../../shared/styles/colors";
+
+.vl-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 32px;
+  margin-right: 32px;
+  height: 100%;
+
+  .vertical-line {
+    border-left: 2px solid $light_gray;
+    height: 100%;
+  }
+}

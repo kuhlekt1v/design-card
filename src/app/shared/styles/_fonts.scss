@@ -1,0 +1,29 @@
+@import "../styles/colors";
+
+.body-regular {
+  color: $gray;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.body-medium {
+  color: $gray;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.title-medium {
+  color: $dark;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.title-semi-bold {
+  color: $dark;
+  line-height: 24px;
+  font-size: 16px;
+  font-weight: 600;
+}
